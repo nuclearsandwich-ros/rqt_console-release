@@ -1,0 +1,12 @@
+Source: ros-testing-rqt-console
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ros-workspace
+Homepage: http://wiki.ros.org/rqt_console
+Standards-Version: 3.9.2
+
+Package: ros-testing-rqt-console
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-python, ros-testing-python-qt-binding (>= 0.2.19), ros-testing-rcl-interfaces, ros-testing-rclpy, ros-testing-rqt-gui, ros-testing-rqt-gui-py, ros-testing-rqt-py-common, ros-testing-ros-workspace
+Description: rqt_console provides a GUI plugin for displaying and filtering ROS messages.
